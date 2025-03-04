@@ -26,6 +26,7 @@ pause(8000)
 hero.set_position(100, 60)
 
 customer = sprites.create(assets.image("""customer"""), SpriteKind.enemy)
+customer.set_position(50, randint(20, 100))
 
 burger = sprites.create(assets.image("""burger"""), SpriteKind.projectile)
 burger.set_scale(.5, ScaleAnchor.MIDDLE)
