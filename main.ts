@@ -130,7 +130,7 @@ scene.setBackgroundImage(img`
 //  message3 = ". At " + restaurant + ", there are always some rowdy customers every here and there." 
 //  message4 = "However, " + restaurant + " just fired more than half of their staff, slowing down meal-prep speeds."
 //  message5 = "Now, your customers have become increasingly rowdy and have resulted to commiting violence against the staff."
-//  message6 = "Fend off the rowdy customers in a food fight to avoid getting thrown into the frier by crazy customers."
+//  message6 = "Fend off the rowdy customers in a food fight to avoid getting thrown into the fryer by crazy customers."
 //  hero.say_text(message, 8000)
 //  pause(3000)
 //  hero.say_text(message2, 10000)
@@ -176,4 +176,4 @@ game.onUpdate(function on_update() {
     }
     
 })
-game.setGameOverMessage(true, "GAME OVER! You have been thrown into the frier by your customers!")
+game.setGameOverMessage(false, "Thrown into the fryer!")

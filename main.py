@@ -131,7 +131,7 @@ scene.set_background_image(img("""
 # message3 = ". At " + restaurant + ", there are always some rowdy customers every here and there." 
 # message4 = "However, " + restaurant + " just fired more than half of their staff, slowing down meal-prep speeds."
 # message5 = "Now, your customers have become increasingly rowdy and have resulted to commiting violence against the staff."
-# message6 = "Fend off the rowdy customers in a food fight to avoid getting thrown into the frier by crazy customers."
+# message6 = "Fend off the rowdy customers in a food fight to avoid getting thrown into the fryer by crazy customers."
 # hero.say_text(message, 8000)
 # pause(3000)
 # hero.say_text(message2, 10000)
@@ -186,4 +186,4 @@ def on_update():
         game.game_over(True)
 game.on_update(on_update)
 
-game.set_game_over_message(True, "GAME OVER! You have been thrown into the frier by your customers!")
+game.set_game_over_message(False, "Thrown into the fryer!")
