@@ -185,4 +185,5 @@ def on_update():
     if info.score() == 10:
         game.game_over(True)
 game.on_update(on_update)
-    
+
+game.set_game_over_message(True, "GAME OVER! You have been thrown into the frier by your customers!")

@@ -176,3 +176,4 @@ game.onUpdate(function on_update() {
     }
     
 })
+game.setGameOverMessage(true, "GAME OVER! You have been thrown into the frier by your customers!")
